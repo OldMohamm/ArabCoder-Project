@@ -44,7 +44,7 @@ class SimpleWAF {
 	}
 
 	function sendNotification($chatid, $text) {
-		return file_get_contents("https://api.telegram.org/bot".$2039560023:AAHARvyKAMajco9d_7T4Fr0hZPkh5q6kNBs."/sendMessage?chat_id=".$chatid."&text=".$text);
+		return file_get_contents("https://api.telegram.org/bot".$this->telegram_api."/sendMessage?chat_id=".$chatid."&text=".$text);
 	}
 
 	private function unset_globals() {
