@@ -15,7 +15,7 @@ A WAF operates through a set of rules often called policies. These policies aim 
 - Block the IP Spam
 - Protect the Requests URL
 - Protect the Requests are made via the server
-- Protect Bots
+- Protect the Bots
 - Access-Control-Allow-Methods
 - Block The DoS, Union SQLI, Blind SQLI, Click-Jacking, Cookies, Unrestricted file upload
 
