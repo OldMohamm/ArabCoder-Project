@@ -36,7 +36,7 @@ class SimpleWAF {
 	private function msgWarning($msg) {
 		$show = "<title>Blocked</title>
 		<center>
-			<img src=\"http://img.4plebs.org/boards/tg/image/1403/85/1403850647688.png\" width=\"150\">
+			<img src=\"https://e.top4top.io/p_2087s47sz1.png\" width=\"150\">
 			<br /><br />
 			<i><b>[ ".$msg." ]</b></i>
 		</center>";
