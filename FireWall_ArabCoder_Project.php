@@ -210,7 +210,7 @@ class ArabCoder-Project {
 		$upload_array = array();
 		foreach( $_FILES as $f_key => $f_value ) {
 			foreach( $f_value as $prop_key => $prop_value ) {
-				// Fetch all but 'error':
+				
 				if (! in_array( $prop_key, array( 'name', 'type', 'tmp_name', 'size' ) ) ) { continue; }
 				$file_buffer = $f_key;
 				if ( is_array( $_FILES[$f_key][$prop_key] ) ) {
